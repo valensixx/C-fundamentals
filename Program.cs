@@ -31,6 +31,19 @@ int myfirstintvar = 8; //the code will work, but it is wrong!
 int a = 5;
 int b = 10;
 int calc = a + b;
+int c = a - b;
+int d = a / b;
+int e = a * b;
+
+int aa = 11;
+int bb = 2;
+double res = 11 / 2.0; //we add .0 so the result become double. In double we can have int values.
+
+int numb = 5;
+numb++; //will add +1 to the result
+numb--; // will remove -1;
+
+//If x % 5 = ? then possible outcome is 0,1,2,3,4;
 
 Console.WriteLine(calc);
 
