@@ -1,4 +1,6 @@
-﻿Console.WriteLine("Hello, World!");
+﻿/*
+
+Console.WriteLine("Hello, World!");
 
 // Create simple for loop 
 for (int i = 0; i < 15; i++)
@@ -54,3 +56,13 @@ Console.WriteLine(calc);
 
 string input = Console.ReadLine(); // reads users input as a string
 int num = int.Parse(input); // takes string inoput and converts it to int
+double dd = double.Parse(Console.ReadLine());
+float ff = float.Parse(Console.ReadLine());
+decimal deci = decimal.Parse(Console.ReadLine());
+
+*/
+Console.WriteLine("Enter number one:");
+int numOne = int.Parse(Console.ReadLine());
+Console.WriteLine("Enter number two");
+int numTwo = int.Parse(Console.ReadLine());
+Console.WriteLine(numOne + numTwo);
