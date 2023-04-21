@@ -45,5 +45,12 @@ numb--; // will remove -1;
 
 //If x % 5 = ? then possible outcome is 0,1,2,3,4;
 
+//If x % 2 = 0 четно ако е 1 е нечетно.
+
+//comparison operators    >, >=, <, <=, ==, != 
+
 Console.WriteLine(calc);
 
+
+string input = Console.ReadLine(); // reads users input as a string
+int num = int.Parse(input); // takes string inoput and converts it to int
